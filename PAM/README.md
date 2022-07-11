@@ -19,8 +19,8 @@ PAM aims to strengthen the attention on peak regions, while weakening the attent
 bash run_PAM.sh
 ```
 
-Note that extracted peak points are used in the image-level supervised BESTIE.
-We provide the weight for the pretrained classfier with PAM module [[download]](https://drive.google.com/file/d/1I5DocPV2Lkc59DtDrr4XoQuVlKdRi4km/view?usp=sharing)
+* Note that extracted peak points are used in the image-level supervised BESTIE.
+* We provide the weight for the pretrained classfier with PAM module [[download]](https://drive.google.com/file/d/1I5DocPV2Lkc59DtDrr4XoQuVlKdRi4km/view?usp=sharing)
 
 ## Acknowledgement
 
