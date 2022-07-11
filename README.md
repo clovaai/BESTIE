@@ -44,7 +44,7 @@ The extensive experiments on PASCAL VOC 2012 and MS COCO demonstrate the effecti
 # News
 
 - [x] official pytorch code release
-- [ ] release the code for the classifier with PAM module
+- [x] release the code for the classifier with PAM module
 - [ ] update training code and dataset for COCO
 
 # How To Run
