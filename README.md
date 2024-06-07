@@ -32,9 +32,13 @@ The extensive experiments on PASCAL VOC 2012 and MS COCO demonstrate the effecti
 <img src = "https://github.com/clovaai/BESTIE/blob/main/figures/result_voc.png" width="50%" height="50%">
 <img src = "https://github.com/clovaai/BESTIE/blob/main/figures/result_coco.png" width="50%" height="50%">
 
-* BESTIE (HRNet48, Image-label) : 42.6 mAP50 on VOC2012 [[download]](https://drive.google.com/drive/folders/1T3Cy3ybQ1Vk1Kow4QRm1lNRuTnoIhBBH?usp=sharing)
-* BESTIE (HRNet48, point-label) : 46.7 mAP50 on VOC2012 [[download]](https://drive.google.com/drive/folders/1T3Cy3ybQ1Vk1Kow4QRm1lNRuTnoIhBBH?usp=sharing)
+* BESTIE (HRNet48, Image-label) : 42.6 mAP50 on VOC2012 [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/BESTIE_HRNet48_image_label.pt)
+* BESTIE (HRNet48, point-label) : 46.7 mAP50 on VOC2012 [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/BESTIE_HRNet48_point_label.pt)
 
+Extra Sources
+* PAM: [[pretrained_weight]](https://github.com/clovaai/BESTIE/releases/download/asset/PAM.pth)
+* HRNet-W32: [[imagenet_pretrained_weight]](https://github.com/clovaai/BESTIE/releases/download/asset/hrnet_w32-36af842e.pth)
+* HRNet-W48: [[imagenet_pretrained_weight]](https://github.com/clovaai/BESTIE/releases/download/asset/hrnet_w48-8ef0771d.pth)
 
 # Qualitative Results
 
@@ -61,10 +65,10 @@ The extensive experiments on PASCAL VOC 2012 and MS COCO demonstrate the effecti
 ### Datasets
 
 - Download Pascal VOC2012 dataset from the [official dataset homepage](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/).
-- Download other data from [[here]](https://drive.google.com/drive/folders/1NCzMAZzxvDu8E6qV1uDIrts9ZuHpmGgV?usp=sharing).
-  - `Center_points/` (ground-trugh point labels)
-  - `Peak_points/` (point labels extracted by PAM module and image-level labels)
-  - `WSSS_maps/` (weakly-supervised semantic segmentation outputs)
+  - `Center_points/` (ground-trugh point labels) [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/Center_points.zip)
+  - `Peak_points/` (point labels extracted by PAM module and image-level labels) [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/Peak_points.zip)
+  - `WSSS_maps/` (weakly-supervised semantic segmentation outputs) [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/WSSS_maps.zip)
+  - `SegmentationObject/` (ground-truth mask labels) [[download]](https://github.com/clovaai/BESTIE/releases/download/asset/SegmentationObject.zip)
 
 ```
 data_root/
